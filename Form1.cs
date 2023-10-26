@@ -26,8 +26,8 @@ namespace Homework_27_10
 
             foreach (Process process in processes)
             {
-                ListViewItem item = new ListViewItem(process.ProcessName); // Имя процесса
-                item.SubItems.Add(process.Id.ToString()); // ID процесса
+                ListViewItem item = new ListViewItem(process.ProcessName); 
+                item.SubItems.Add(process.Id.ToString()); 
                 listView1.Items.Add(item);
             }
         }
